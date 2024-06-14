@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.b1{
+    background-color: #91d9f6;
+    border: 0px solid black;
+    height: 40px;
+    width: 40px;
+}
+nav .col-3{
+    display: flex;
+    align-items: center;
+}
+nav .col-3s{
+    justify-content: start;
+}
+nav .col-3e{
+    justify-content:end;
+}
+nav .col-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav input{
+    height: 40px;
+    width: 200px;
+    border: rgb(219, 219, 219) 1px solid;
+    padding-left: 20px;
+}
+nav .label1{
+    color: #91d9f6;
+    margin-right: 20px;
+}
+nav .label2{
+    margin:0px 20px;
+}
+nav .b2{
+    height: 40px;
+    width: 60px;
+    border: rgb(219, 219, 219) 1px solid;
+    border-radius: 2px;
+
+}
+nav select{
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: #91d9f600;
+}
+nav .header1{
+    color: #004c8a;
+    font-size: 150%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Cinzel", serif;
+}
+nav .header2{
+    color: #91d9f6;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: "Orbitron", sans-serif;
+}
+.navbar{
+    width: 100%;
+}
+.navbar .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: rgb(219, 219, 219) 1px solid;
+    height: 50px;
+}
+.navbra .col-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    
+}
+
+
+/* banner */
+
+#banner .container-fluid{
+    background-image: url(./Image/banner.avif);
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    height: 1000px;
+    position: relative;
+}
+
+#banner .block{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    margin-left: 60% ;
+}
+#banner img{
+    position: absolute;
+    top: 0px;
+    left: 80%;
+}
+#banner button{
+    width: 200px;
+    height: 50px;
+    background-color: #004c8a;
+    color: white;
+    font-weight: bolder;
+}
+#banner h1{
+    font-family: "Cinzel", serif;
+    font-size: 400%;
+}
+#banner .header1{
+    color: #004c8a;
+}
+#banner .header2{
+    color:#91d9f6;
+    text-shadow: 0px 0px 2px black;
+}
+#banner p{
+    font-size: 150%;
+}
+#content1 .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#content1 .col1{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#content1 .col2{
+    width: 33%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content1 .col3{
+    width: 33%;
+}
+#content1 .col11{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+#content1 .col12{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+#content1 .col21{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+#content1 .col22{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
