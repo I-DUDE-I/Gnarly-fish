@@ -151,6 +151,11 @@ nav .header2{
     padding: 20px;
 }
 #content1 .col3{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
     
 }
 #content1 .col11{
